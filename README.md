@@ -9,11 +9,13 @@
 - Thymeleaf
 - Spring Data JPA
 - QueryDsl
+- BootStrap
 - Axios
-
+- JUnit
 
 ## 기능 구현
 
-- 게시판 기능 구현
+- 게시판 구현
+- 게시판 검색 기능 구현
 - RESTful 댓글 기능 구현
-- 파일 업로드 시스템 및 썸네일 구현
+- 파일 업로드 시스템 및 썸네일 구현 (~ing :grinning:)
