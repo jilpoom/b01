@@ -9,6 +9,7 @@
 - Spring Boot
 - Thymeleaf
 - Spring Data JPA
+- MySQL
 - QueryDsl
 - BootStrap
 - Axios
