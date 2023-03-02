@@ -11,4 +11,6 @@ public interface ReplyRepository extends JpaRepository<Reply, Long> {
     @Query("SELECT r FROM Reply r WHERE r.board.bno = :bno")
     Page<Reply> listOfBoard(Long bno, Pageable pageable);
 
+    void deleteByBoard_Bno(Long bno);
+
 }

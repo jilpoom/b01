@@ -9,6 +9,7 @@ import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 import java.time.LocalDateTime;
+import java.util.List;
 
 @Data
 @Builder
@@ -26,5 +27,8 @@ public class BoardDTO {
     private String writer;
     private LocalDateTime regDate;
     private LocalDateTime modDate;
+
+    //첨부 파일 이름들
+    private List<String> fileNames;
 
 }
