@@ -14,10 +14,12 @@
 - BootStrap
 - Axios
 - JUnit
+- Spring Security
 
 ## 기능 구현
 
-- 게시판 구현
+- 게시판 CRUD 구현
 - 게시판 검색 기능 구현
 - RESTful 댓글 기능 구현
-- 파일 업로드 시스템 및 썸네일 구현 (~ing :grinning:)
+- 파일 업로드 시스템 및 게시판 파일 CRUD 구현
+- 스프링 시큐리티를 통한 로그인 및 세션 트래킹 구현 (~ing :joy:)
