@@ -10,10 +10,7 @@ import org.springframework.core.io.Resource;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.zerock.b01.dto.UploadResultDTO;
 import org.zerock.b01.dto.upload.UploadFileDTO;
 
@@ -107,7 +104,7 @@ public class UpDownController {
 
 
     @ApiOperation(value = "remove 파일", notes = "DELTE 방식으로 파일 삭제")
-    @GetMapping("/remove/{fileName}")
+    @DeleteMapping("/remove/{fileName}")
     public Map<String, Boolean> removeFile(@PathVariable String fileName) {
 
         Resource resource = new FileSystemResource(uploadPath + File.separator + fileName);

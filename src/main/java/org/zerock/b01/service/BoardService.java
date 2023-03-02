@@ -55,7 +55,7 @@ public interface BoardService {
 
         List<String> fileNames =
                 board.getImageSet().stream().sorted()
-                        .map(boardImage -> boardImage.getFileName())
+                        .map(boardImage -> boardImage.getUuid() + "_" + boardImage.getFileName())
                         .collect(Collectors.toList());
 
         boardDTO.setFileNames(fileNames);
