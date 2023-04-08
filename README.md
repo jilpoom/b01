@@ -1,7 +1,6 @@
 # 자바 웹 개발 워크북 프로젝트
 
 - :exclamation: <a href="https://www.github.com/ckck24">완성본</a> :exclamation:
-- 현재 진행중(~23.03.03) :joy:
 
 ## 주요 사용 기술
 
